@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo claro */
+    color: #333; /* Texto oscuro */
+}
+
+/* Header */
+.header {
+    background: #5cbb5c; /* Verde claro como base */
+    color: #fff; /* Texto blanco para contraste */
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el encabezado */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 48px; /* Tamaño de fuente más grande para destacar */
+    letter-spacing: 1px; /* Espaciado entre letras para un toque moderno */
+}
+
+.header p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Servicio Tarjeta */
+.service-card {
+    background: #fff; /* Fondo blanco para las tarjetas */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para tarjetas */
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
+.service-card:hover {
+    transform: translateY(-10px); /* Elevación al pasar el cursor */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada en hover */
+}
+
+.service-card h3 {
+    margin-top: 0;
+    font-size: 22px; /* Tamaño de fuente de los títulos */
+}
+
+/* Footer */
+.footer {
+    background: #343a40; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 2px solid #5cbb5c; /* Línea de acento en verde claro */
+}
+
+.footer p {
+    margin: 0;
+}

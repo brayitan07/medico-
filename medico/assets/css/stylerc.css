@@ -1,0 +1,80 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.report-container {
+    max-width: 1200px; /* Limitar el ancho máximo */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #5cbb5c;
+    font-size: 28px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* Tabla de citas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+thead {
+    background-color: #5cbb5c;
+    color: white;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Ajustar la tabla para pantallas pequeñas */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+    
+    th, td {
+        padding: 10px;
+    }
+}
+
+/* Ajustes específicos para el contenido largo */
+td {
+    word-wrap: break-word; /* Permitir que el texto largo se ajuste a la celda */
+}
+
+/* Asegurar que las celdas con la fecha y el motivo se ajusten */
+td:nth-child(7), td:nth-child(8) {
+    max-width: 200px; /* Limitar el ancho de las columnas más grandes */
+}
+
+/* Ajustar el diseño para que sea más compacto */
+@media (max-width: 600px) {
+    td, th {
+        font-size: 12px;
+        padding: 8px;
+    }
+}

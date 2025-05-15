@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background: #5cbb5c;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #5cbb5c;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #5cbb5c;
+}
+
+/* Carousel */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Services Section */
+.services-section, .doctor-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services-container, .doctor-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.service-item, .doctor-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+}
+
+/* Interacción al pasar el mouse por encima de los servicios */
+.service-item:hover {
+    transform: scale(1.05); /* Efecto de zoom */
+    box-shadow: 0 8px 16px rgba(0, 255, 157, 0.3); /* Efecto de sombra azul */
+}
+
+/* Doctor Cards */
+.doctor-card img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.doctor-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+}
+
+/* Interacción al pasar el mouse por encima de los doctores */
+.doctor-card:hover {
+    transform: scale(1.05); /* Efecto de zoom */
+    box-shadow: 0 8px 16px rgba(0, 255, 157, 0.3); /* Efecto de sombra azul */
+}
+
+/* Button */
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #5cbb5c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
